@@ -1,0 +1,29 @@
+footer { background: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(#09545c), to(black)); background: linear-gradient(to top, black, #09545c, black); padding-top: 20px; border-top: 1px solid gold; width: 100vw; }
+
+footer #pie { height: 420px; width: 100vw; color: gold; text-align: center; margin-bottom: 5px; }
+
+footer #imagenCentral { width: 200px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: auto; }
+
+footer #imagenIzquierda { float: left; margin: auto; height: 300px; width: 260px; }
+
+footer #imagenDerecha { float: right; margin: auto; height: 300px; width: 260px; }
+
+footer .footerMenu { text-align: center; margin: 5px 0 30px 0; list-style: none; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+
+footer .footerMenu li { margin: 10px; }
+
+footer .footerMenu li a { color: gold; font-size: 15px; font-weight: 700; text-decoration: none; }
+
+footer .footerMenu li a:hover { color: red; }
+
+footer #desarrollado { font-size: 15px; background-color: black; padding-top: 5px; border-top: 2px solid gold; }
+
+footer #desarrollado h3 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; margin-right: 20px; color: burlywood; font-size: 15px; }
+
+footer #desarrollado h3 a { color: goldenrod; margin-left: 10px; }
+
+footer #desarrollado h3 a :hover { color: red; }
+
+@media only screen and (max-width: 720px) { #imagenIzquierda { display: none; }
+  #imagenDerecha { display: none; } }
+/*# sourceMappingURL=footer.css.map */
