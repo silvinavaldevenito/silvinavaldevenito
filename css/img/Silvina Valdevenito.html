@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index.html# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Silvina Valdevenito</title>
+        <!--hoja style-->
+        <link href="./Silvina Valdevenito_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="./Silvina Valdevenito_files/style.css">
+        <link rel="shortcut icon" href="http://127.0.0.1:5500/css/img/logoCam.png">
+        <meta name="desciption" content="Silvina Valdevenito, candidata por el partido de... nos presenta sus propuestas, novedades de actividad y su manera de ser">             
+        <meta name="keywords" content="Silvina, Valdevenito, Cambiemos, Candidata, Candidatura, propuestas">
+    </head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="http://127.0.0.1:5500/index.html#">
+                    <img src="./Silvina Valdevenito_files/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    Silvina Valdevenito
+                </a>
+                <form class="d-flex">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/index.html#">BIOGRAFÍA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://127.0.0.1:5500/index.html#">PROPUESTA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://127.0.0.1:5500/index.html#">NOVEDADES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">CONTACTO</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </nav>
+        <div>
+            <img class="imgHome" src="./Silvina Valdevenito_files/img1.jpg" alt="">
+        </div>
+         
+    </header>
+    
+    <section class="seccionUno">
+        <div class="textoUno">
+                <h2>Juegos</h2>
+                <article>
+                    Puedes conocer los mas emblemáticos y las leyendas, que hacen tan especial esta saga. Conoce todo lo que debes saber y más, de la mano de los que experimentaron desde el primer día esta saga.
+                </article>
+        </div>
+    </section>
+    <section class="seccionTres">
+        <div class="musica">
+            <h2>Música</h2>
+            <div id="ReproductorMusica">
+                <select name="Temas" id="TemasReproductor">
+                    <option value="1">Canción 1</option>
+                    <option value="2">Canción 2</option>
+                    <option value="3">Canción 3</option>
+                    <option value="4">Canción 4</option>
+                    <option value="5">Canción 5</option>
+                    <option value="6">Canción 6</option>
+                    <option value="7">Canción 7</option>
+                </select>
+            </div>
+            <img src="./Silvina Valdevenito_files/81PWprQlMmL.SX355.jpg" alt="">
+            <!--Carátula de canción-->
+            <h4>Descripción</h4>
+            <article>
+                Como parte de la campaña por estas tres décadas 
+                de existencia, Nintendo pondrá a la venta una 
+                banda sonora muy especial que ha sido bautizada 
+                como 'The Legend of Zelda Game Music Collection'. 
+                En total, se recogen en dos discos las mejores 93
+                s piezas musicales de la franquicia.
+            </article>
+        </div>
+        <div class="video">
+            <h2>Videos</h2>
+            <div id="reproductorVideo">
+                <iframe src="./Silvina Valdevenito_files/videoseries.html" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </section>
+    <footer class="footerHoja">
+        <iframe id="pie" src="./Silvina Valdevenito_files/footer.html" frameborder="0" scrolling="no"></iframe>
+    </footer>
+    <script src="./Silvina Valdevenito_files/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
