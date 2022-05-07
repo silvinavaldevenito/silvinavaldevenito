@@ -1,4 +1,4 @@
-footer { background: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(#09545c), to(black)); background: linear-gradient(to top, black, #09545c, black); padding-top: 20px; border-top: 1px solid gold; width: 100vw; }
+footer { padding-top: 20px; border-top: 1px solid gold; width: 100vw; }
 
 footer #pie { height: 420px; width: 100vw; color: gold; text-align: center; margin-bottom: 5px; }
 
@@ -26,6 +26,4 @@ footer #desarrollado h3 a :hover { color: red; }
 
 @media only screen and (max-width: 720px) { #imagenIzquierda { display: none; }
   #imagenDerecha { display: none; } }
-
-body { background-color: cornflowerblue; }
 /*# sourceMappingURL=style.css.map */
