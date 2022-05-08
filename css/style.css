@@ -1,3 +1,11 @@
+@font-face { font-family: 'GothamRoundedBold'; src: url("./fonts/GothamRoundedBold.otf") format("opentype"), url("./fonts/GothamRoundedBold.ttf") format("truetype"); }
+
+@font-face { font-family: 'GothamRoundedBook'; src: url("./fonts/GothamRoundedBook.otf") format("opentype"), url("./fonts/GothamRoundedBook.ttf") format("truetype"); }
+
+@font-face { font-family: 'GothamRoundedLight'; src: url("./fonts/GothamRoundedLight.otf") format("opentype"), url("./fonts/GothamRoundedLight.ttf") format("truetype"); }
+
+@font-face { font-family: 'GothamRoundedMedium'; src: url("./fonts/GothamRoundedMedium.otf") format("opentype"), url("./fonts/GothamRoundedMedium.ttf") format("truetype"); }
+
 footer { padding-top: 20px; border-top: 1px solid gold; width: 100vw; }
 
 footer #pie { height: 420px; width: 100vw; color: gold; text-align: center; margin-bottom: 5px; }
@@ -26,4 +34,6 @@ footer #desarrollado h3 a :hover { color: red; }
 
 @media only screen and (max-width: 720px) { #imagenIzquierda { display: none; }
   #imagenDerecha { display: none; } }
+
+body { font-family: "GothamRoundedBook", sans-serif; }
 /*# sourceMappingURL=style.css.map */
