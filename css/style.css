@@ -36,4 +36,6 @@ footer #desarrollado h3 a :hover { color: red; }
   #imagenDerecha { display: none; } }
 
 body { font-family: "GothamRoundedBook", sans-serif; }
+
+body .seccionUno img.d-block { width: 800px; height: 700px; padding: 0 5%; }
 /*# sourceMappingURL=style.css.map */
