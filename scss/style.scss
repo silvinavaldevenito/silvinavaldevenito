@@ -3,6 +3,17 @@
 
 body{
     font-family: "GothamRoundedBook", sans-serif;
+    .navbar{
+        position: absolute;
+        z-index: 1;
+    }
+    .imgHome{
+        width: 100vw;
+        height: 100vh;
+        display: inline-block;
+        position: relative
+        z-index: -1;
+    }
     .seccionUno{
         img.d-block{
             width: 800px;
