@@ -39,11 +39,13 @@ body { font-family: "GothamRoundedBook", sans-serif; }
 
 body .navbar { position: absolute; z-index: 1; }
 
+body .navbar .navbar-nav .nav-link:hover { color: #e9b530; }
+
 body .imgHome { display: inline-block; position: relative; z-index: -1; width: 100vw; height: 100vh; }
 
 body .seccionUno { padding-top: 5px; }
 
-body .seccionUno h2 { text-align: center; padding: 5px 0px; font-size: 50px; font-weight: bold; }
+body .seccionUno h2 { text-align: center; padding: 5px 0; font-size: 50px; font-weight: bold; }
 
 body .seccionUno h3 { text-align: center; margin: 5px; padding: 5px; font-size: 25px; background-color: #e9b530; font-weight: bold; }
 
@@ -51,13 +53,17 @@ body .seccionUno img.d-block { width: 700px; height: 700px; padding: 0 5%; }
 
 body .seccionDos { padding-top: 5px; }
 
-body .seccionDos h2 { text-align: center; padding: 5px 0px; font-size: 50px; font-weight: bold; }
+body .seccionDos h2 { text-align: center; padding: 5px 0; font-size: 50px; font-weight: bold; }
 
 body .seccionDos h3 { text-align: center; margin: 5px; padding: 5px; font-size: 25px; background-color: #e9b530; font-weight: bold; }
 
-body .seccionTres { padding-top: 5px; }
+body .seccionTres { padding-top: 5px; justify-items: center; }
 
-body .seccionTres h2 { text-align: center; padding: 5px 0px; font-size: 50px; font-weight: bold; }
+body .seccionTres h2 { text-align: center; padding: 5px 0; font-size: 50px; font-weight: bold; }
 
 body .seccionTres h3 { text-align: center; margin: 5px; padding: 5px; font-size: 25px; background-color: #e9b530; font-weight: bold; }
+
+body .seccionTres .card { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; position: initial; margin: 5px; }
+
+body .seccionTres .btn { background-color: #e9b530; border-color: transparent; color: black; }
 /*# sourceMappingURL=style.css.map */

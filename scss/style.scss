@@ -1,28 +1,31 @@
 @import "fonts";
 @import "footer";
 
-body{
+body {
     font-family: "GothamRoundedBook", sans-serif;
-    .navbar{
+    .navbar {
         position: absolute;
         z-index: 1;
+        .navbar-nav .nav-link:hover {
+            color: #e9b530;
         }
-    .imgHome{
+    }
+    .imgHome {
         display: inline-block;
         position: relative;
         z-index: -1;
         width: 100vw;
         height: 100vh;
     }
-    .seccionUno{
-        padding-top:5px ;
-        h2{
+    .seccionUno {
+        padding-top: 5px;
+        h2 {
             text-align: center;
-            padding: 5px 0px;
+            padding: 5px 0;
             font-size: 50px;
-            font-weight:bold;
+            font-weight: bold;
         }
-        h3{
+        h3 {
             text-align: center;
             margin: 5px;
             padding: 5px;
@@ -30,21 +33,21 @@ body{
             background-color: #e9b530;
             font-weight: bold;
         }
-        img.d-block{
+        img.d-block {
             width: 700px;
-            height:700px;
+            height: 700px;
             padding: 0 5%;
         }
     }
-    .seccionDos{
+    .seccionDos {
         padding-top: 5px;
-        h2{
+        h2 {
             text-align: center;
-            padding: 5px 0px;
+            padding: 5px 0;
             font-size: 50px;
-            font-weight:bold;
+            font-weight: bold;
         }
-        h3{
+        h3 {
             text-align: center;
             margin: 5px;
             padding: 5px;
@@ -55,13 +58,14 @@ body{
     }
     .seccionTres {
         padding-top: 5px;
-        h2{
+        justify-items: center;
+        h2 {
             text-align: center;
-            padding: 5px 0px;
+            padding: 5px 0;
             font-size: 50px;
-            font-weight:bold;
+            font-weight: bold;
         }
-        h3{
+        h3 {
             text-align: center;
             margin: 5px;
             padding: 5px;
@@ -69,7 +73,17 @@ body{
             background-color: #e9b530;
             font-weight: bold;
         }
-    
+        .card {
+            display: inline-flex;
+            position: initial;
+            margin: 5px;
+        }
+        .btn {
+            background-color: #e9b530;
+            border-color: transparent;
+            color: black;
+        }
+
     }
 
 }
