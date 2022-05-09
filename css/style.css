@@ -35,35 +35,45 @@ footer #desarrollado h3 a :hover { color: red; }
 @media only screen and (max-width: 720px) { #imagenIzquierda { display: none; }
   #imagenDerecha { display: none; } }
 
-body { font-family: "GothamRoundedBook", sans-serif; }
+body { font-family: "GothamRoundedBook", sans-serif; color: #4C5055; }
+
+body h2 { text-align: center; font-size: 50px; font-family: "GothamRoundedMedium", sans-serif; font-weight: normal; }
+
+body h3 { text-align: center; margin: 5px 0; padding: 5px; font-size: 30px; font-weight: normal; font-family: "GothamRoundedLight", sans-serif; }
+
+body .titulo-seccion { margin-bottom: 50px; }
+
+body .subtitle { text-transform: uppercase; border-bottom: 1px solid #4C5055; padding-bottom: 15px; }
 
 body .navbar { position: absolute; z-index: 1; }
 
 body .navbar .navbar-nav .nav-link:hover { color: #e9b530; }
 
+body .seccion { margin-top: 50px; }
+
 body .imgHome { display: inline-block; position: relative; z-index: -1; width: 100vw; height: 100vh; }
 
-body .seccionUno { padding-top: 5px; }
+body #seccionUno { padding-top: 5px; }
 
-body .seccionUno h2 { text-align: center; padding: 5px 0; font-size: 50px; font-weight: bold; }
+body #seccionUno img.d-block { width: 700px; height: 700px; padding: 0 5%; }
 
-body .seccionUno h3 { text-align: center; margin: 5px; padding: 5px; font-size: 25px; background-color: #e9b530; font-weight: bold; }
+body #seccionDos article { margin-bottom: 20px; font-size: 14px; color: #BBB; }
 
-body .seccionUno img.d-block { width: 700px; height: 700px; padding: 0 5%; }
+body #seccionDos .darker { color: #999; font-family: "GothamRoundedMedium", sans-serif; }
 
-body .seccionDos { padding-top: 5px; }
+body #seccionDos .skyblue { color: #93D4EE; }
 
-body .seccionDos h2 { text-align: center; padding: 5px 0; font-size: 50px; font-weight: bold; }
+body #seccionDos ul { font-size: 14px; list-style: none; padding: 0; }
 
-body .seccionDos h3 { text-align: center; margin: 5px; padding: 5px; font-size: 25px; background-color: #e9b530; font-weight: bold; }
+body #seccionDos ul li { margin-bottom: 15px; }
 
-body .seccionTres { padding-top: 5px; justify-items: center; }
+body #seccionDos .columna-imagenes img { margin-bottom: 25px; }
 
-body .seccionTres h2 { text-align: center; padding: 5px 0; font-size: 50px; font-weight: bold; }
+body #seccionTres { padding-top: 5px; justify-items: center; }
 
-body .seccionTres h3 { text-align: center; margin: 5px; padding: 5px; font-size: 25px; background-color: #e9b530; font-weight: bold; }
+body #seccionTres .card { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; position: initial; margin: 5px; }
 
-body .seccionTres .card { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; position: initial; margin: 5px; }
+body #seccionTres .btn { background-color: #e9b530; border-color: transparent; color: black; }
 
-body .seccionTres .btn { background-color: #e9b530; border-color: transparent; color: black; }
+body .final-seccion .yellow-dot { width: 22px; height: 22px; background-color: #FFCD00; border-radius: 50%; display: inline-block; margin: 75px 5px; }
 /*# sourceMappingURL=style.css.map */
