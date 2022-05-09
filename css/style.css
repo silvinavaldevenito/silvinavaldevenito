@@ -41,5 +41,11 @@ body .navbar { position: absolute; z-index: 1; }
 
 body .imgHome { display: inline-block; position: relative; z-index: -1; width: 100vw; height: 100vh; }
 
-body .seccionUno img.d-block { width: 800px; height: 700px; padding: 0 5%; }
+body .seccionUno { padding-top: 5px; }
+
+body .seccionUno h2 { text-align: center; padding: 5px 0px; font-size: 50px; font-weight: bold; }
+
+body .seccionUno h3 { text-align: center; margin: 5px; padding: 5px; font-size: 25px; background-color: #e9b530; font-weight: bold; }
+
+body .seccionUno img.d-block { width: 700px; height: 700px; padding: 0 5%; }
 /*# sourceMappingURL=style.css.map */
