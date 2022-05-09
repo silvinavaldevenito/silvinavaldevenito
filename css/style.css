@@ -39,5 +39,7 @@ body { font-family: "GothamRoundedBook", sans-serif; }
 
 body .navbar { position: absolute; z-index: 1; }
 
+body .imgHome { display: inline-block; position: relative; z-index: -1; width: 100vw; height: 100vh; }
+
 body .seccionUno img.d-block { width: 800px; height: 700px; padding: 0 5%; }
 /*# sourceMappingURL=style.css.map */
