@@ -48,4 +48,16 @@ body .seccionUno h2 { text-align: center; padding: 5px 0px; font-size: 50px; fon
 body .seccionUno h3 { text-align: center; margin: 5px; padding: 5px; font-size: 25px; background-color: #e9b530; font-weight: bold; }
 
 body .seccionUno img.d-block { width: 700px; height: 700px; padding: 0 5%; }
+
+body .seccionDos { padding-top: 5px; }
+
+body .seccionDos h2 { text-align: center; padding: 5px 0px; font-size: 50px; font-weight: bold; }
+
+body .seccionDos h3 { text-align: center; margin: 5px; padding: 5px; font-size: 25px; background-color: #e9b530; font-weight: bold; }
+
+body .seccionTres { padding-top: 5px; }
+
+body .seccionTres h2 { text-align: center; padding: 5px 0px; font-size: 50px; font-weight: bold; }
+
+body .seccionTres h3 { text-align: center; margin: 5px; padding: 5px; font-size: 25px; background-color: #e9b530; font-weight: bold; }
 /*# sourceMappingURL=style.css.map */
