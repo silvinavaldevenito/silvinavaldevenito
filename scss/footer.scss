@@ -1,78 +1,64 @@
-footer{
-    padding-top: 20px;    
-    border-top: 1px solid gold;
+footer{   
     width: 100vw;
-    #pie {
-        height: 420px;
-        width: 100vw;
-        color: gold;
-        text-align: center;        
-        margin-bottom: 5px;        
-    }
-    #imagenCentral {
-        width: 200px;
+    background-color: #E6E6EC;
+    .footerInit{
         display: flex;
         justify-content: center;
-        margin: auto;
+
     }
-    #imagenIzquierda {
-        float: left;
-        margin:auto;
-        height: 300px;
-        width: 260px;
-    }
-    #imagenDerecha {
-        float: right;
-        margin:auto;
-        height: 300px;
-        width: 260px;
+    
+    .imagenCentral {
+        width: 200px;
+        display: flex;
+        justify-content: flex-start;
+        
     }
     .footerMenu {
-        text-align: center;
         margin: 5px 0 30px 0;
         list-style: none;
         display: flex;
-        flex-direction: column;       
+        flex-direction:row; 
+        justify-content: center;      
         li {
             margin: 10px;
             a {
-                color: gold;
+                color: #4C5055;
                 font-size: 15px;
                 font-weight: 700;
                 text-decoration: none;
             }
         }
         li a:hover{
-            color: red;
+            color: #e9b530;
+            
         }
     }
     #desarrollado {
         font-size: 15px;
         background-color: black;
-        padding-top: 5px;
+        padding-top: 10px;
         border-top: 2px solid gold;
         h3 {
             display: flex;
-            justify-content: flex-end;
+            justify-content:center;
             margin-right: 20px;
             color: burlywood;
             font-size: 15px;
             a {
                 color: goldenrod;
                 margin-left: 10px;
+                text-decoration: none;
             } 
             a :hover{
-                color: red;
+            color: #e9b530;
             }           
         }   
     }
 }
 
 @media only screen and (max-width:720px){
-    #imagenIzquierda{
+    #imagenIzquierda, #imagenDerecha  {
         display: none;
     }
-    #imagenDerecha{
-        display:none
-    }
+    
 }
