@@ -28,11 +28,13 @@ body .subtitle { text-transform: uppercase; border-bottom: 1px solid #4C5055; }
 
 body .navbar { position: absolute; z-index: 1; opacity: 70%; width: 100%; }
 
-body .navbar .navbar-brand { color: white; font-size: 25px; font-family: "GothamRoundedMedium", sans-serif; }
+body .navbar .navbar-brand { color: white; font-size: 25px; font-family: "GothamRoundedMedium", sans-serif; margin-left: 40px; }
 
 body .navbar .collapse { -webkit-box-flex: 0; -ms-flex: none; flex: none; }
 
-body .navbar .navbar-nav .nav-link { color: white; }
+body .navbar .navbar-nav { margin-right: 100px; }
+
+body .navbar .navbar-nav .nav-link { color: white; margin-right: 20px; }
 
 body .navbar .navbar-nav .nav-link:hover { color: #e9b530; }
 
