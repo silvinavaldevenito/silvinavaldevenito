@@ -14,7 +14,7 @@ footer img { width: 50%; }
 
 footer a { color: #4C5055; text-decoration: none; }
 
-footer .iconos a { color: #4C5055; }
+footer .copyright { background-color: rgba(0, 0, 0, 0.2); }
 
 body { font-family: "GothamRoundedBook", sans-serif; color: #4C5055; }
 
