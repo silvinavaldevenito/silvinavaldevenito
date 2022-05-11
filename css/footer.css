@@ -4,7 +4,9 @@ footer h5 { color: #4C5055; }
 
 footer img { width: 50%; }
 
-footer a { color: #4C5055; text-decoration: none; }
+footer a { color: #141516; text-decoration: none; }
 
 footer .copyright { background-color: rgba(0, 0, 0, 0.2); }
+
+footer .separador { color: #141516; }
 /*# sourceMappingURL=footer.css.map */
