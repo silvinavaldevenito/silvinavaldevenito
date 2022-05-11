@@ -66,6 +66,8 @@ body #seccionDos .columna-imagenes img { margin-bottom: 25px; }
 
 body #seccionTres { padding: 20px 0 100px; justify-items: center; }
 
+body #seccionTres .contenedorModal { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: auto; }
+
 body #seccionTres .card { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; margin: 5px; width: 17rem; }
 
 body #seccionTres .cardTres img { height: 180px; }

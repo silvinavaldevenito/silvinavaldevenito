@@ -113,6 +113,10 @@ body {
     #seccionTres {
         padding: 20px 0 100px;
         justify-items: center;
+        .contenedorModal{
+            justify-content: center;
+            margin:auto
+        }
         .card {
             display: inline-flex;
             margin: 5px;
