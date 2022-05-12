@@ -30,7 +30,7 @@ body .subtitle { text-transform: uppercase; border-bottom: 1px solid #4C5055; }
 
 body .navbar { position: absolute; z-index: 1; opacity: 70%; width: 100%; }
 
-body .navbar .navbar-brand { color: white; font-size: 23px; font-family: "GothamRoundedMedium", sans-serif; margin-left: 60px; }
+body .navbar .navbar-brand { color: white; font-size: 22px; font-family: "GothamRoundedMedium", sans-serif; margin-left: 60px; }
 
 body .navbar .collapse { -webkit-box-flex: 0; -ms-flex: none; flex: none; }
 
