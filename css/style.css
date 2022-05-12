@@ -76,5 +76,7 @@ body #seccionTres .cardCuatro img { height: 180px; }
 
 body #seccionTres .btn { background-color: #e9b530; border-color: transparent; color: black; }
 
+body #seccionCuatro { margin-bottom: 30px; }
+
 body .final-seccion .yellow-dot { width: 11px; height: 11px; background-color: #e9b530; border-radius: 50%; display: inline-block; margin: 45px 5px; }
 /*# sourceMappingURL=style.css.map */
