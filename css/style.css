@@ -42,7 +42,7 @@ body .navbar .navbar-nav .nav-link:hover { color: #e9b530; }
 
 body .seccion { margin-top: 50px; }
 
-body .imgHome { display: inline-block; position: relative; background-size: cover; z-index: -1; width: 100%; height: 100vh; }
+body .imgHome { display: inline-block; position: relative; background-size: cover; width: 100%; }
 
 body #seccionUno { padding: 20px 0; }
 
