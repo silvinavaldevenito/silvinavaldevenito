@@ -74,10 +74,12 @@ body {
             }
             .textoBiografiaDos {
                 background-image: url("../css/img/img5.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
                 height: 100vh;
                 color: white;
                 text-align: center;
-                padding: 100px 70px;
+                padding: 4rem 70px;
             }
         }
     }

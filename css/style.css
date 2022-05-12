@@ -50,7 +50,7 @@ body #seccionUno .textoUno .textoBiografiaUno { -webkit-box-pack: center; -ms-fl
 
 body #seccionUno .textoUno .textoBiografiaUno .row { padding: 25px 0; margin: 20px 1rem; }
 
-body #seccionUno .textoUno .textoBiografiaDos { background-image: url("../css/img/img5.jpg"); height: 100vh; color: white; text-align: center; padding: 100px 70px; }
+body #seccionUno .textoUno .textoBiografiaDos { background-image: url("../css/img/img5.jpg"); background-repeat: no-repeat; background-size: cover; height: 100vh; color: white; text-align: center; padding: 4rem 70px; }
 
 body #seccionDos article { margin-bottom: 20px; font-size: 14px; color: #BBB; }
 
