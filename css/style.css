@@ -87,7 +87,7 @@ body #seccionTres .btn { background-color: #e9b530; border-color: transparent; c
 
 body #seccionCuatro { margin-bottom: 30px; height: 75vh; }
 
-body .final-seccion .yellow-dot { width: 11px; height: 11px; background-color: #e9b530; border-radius: 50%; display: inline-block; margin: 45px 5px; }
+body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #e9b530; border-radius: 50%; display: inline-block; margin: 45px 5px; }
 
 @media screen and (max-width: 991px) { body .navbar .navbar-brand { font-size: 22px; margin-left: 0; } }
 /*# sourceMappingURL=style.css.map */
