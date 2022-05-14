@@ -172,3 +172,12 @@ body {
     }
 }
 
+@media screen and (max-width: 991px) {
+    body {
+        .navbar {
+            .navbar-brand {
+                font-size: 22px;
+            }
+        }
+    }
+}
