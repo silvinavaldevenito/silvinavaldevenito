@@ -73,17 +73,21 @@ body #seccionDos ul li { margin-bottom: 15px; }
 
 body #seccionDos .columna-imagenes img { margin-bottom: 25px; }
 
-body #seccionTres { padding: 20px 0 100px; justify-items: center; }
+body #seccionTres .card-img-top { height: 400px; }
 
-body #seccionTres .contenedorModal { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin: auto; }
+body #seccionTres .card-img-bottom { height: 600px; }
 
-body #seccionTres .card { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; margin: 5px; width: 17rem; }
+body #seccionTres .card { position: relative; margin-bottom: 40px; }
 
-body #seccionTres .cardTres img { height: 180px; }
+body #seccionTres .card .card-shadow { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.2); }
 
-body #seccionTres .cardCuatro img { height: 180px; }
+body #seccionTres .card .card-body { position: absolute; bottom: 0; left: 0; }
 
-body #seccionTres .btn { background-color: #e9b530; border-color: transparent; color: black; }
+body #seccionTres .card .card-body .card-title { display: none; }
+
+body #seccionTres .card .card-body .card-text { color: #FFFFFF; margin-bottom: 30px; font-size: 30px; font-family: "GothamRoundedLight", sans-serif; }
+
+body #seccionTres .card .card-body .btn { font-size: 15px; background-color: #e9b530; border-color: transparent; color: #FFFFFF; font-family: "GothamRoundedMedium", sans-serif; text-transform: uppercase; border-radius: 12px; padding: 8px 25px; margin-bottom: 30px; }
 
 body #seccionCuatro { margin-bottom: 30px; height: 75vh; }
 
