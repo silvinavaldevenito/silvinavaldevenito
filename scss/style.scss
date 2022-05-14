@@ -71,6 +71,15 @@ body {
             bottom: 45px;
             right: 15px;
             display: none;
+            a{
+                background: #e9b530;
+                border:none;
+                color: #FFF;
+            }
+            a:hover{
+                opacity: 70%;
+                color: #4c5055;
+            }
         }
         .cmn-btncircle {
             width: 40px !important;
