@@ -36,9 +36,10 @@ body {
         width: 100%;
         .navbar-brand {
             color: white;
-            font-size: 22px;
-            font-family: "GothamRoundedMedium", sans-serif;
+            font-size: 30px;
+            font-family: "GothamRoundedBold", sans-serif;
             margin-left: 60px;
+            text-transform: uppercase;
         }
         .collapse {
             flex: none;
