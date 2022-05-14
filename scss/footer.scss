@@ -9,10 +9,16 @@ footer{
     color: #fff;
     text-decoration: none;
     }
+    a:hover{
+            color: #e9b530;
+    }
     .iconos{
         a{
             i{
                 color:#fff;
+            }
+            i:hover{
+            color: #e9b530;
             }
         }
     }
