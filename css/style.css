@@ -55,7 +55,7 @@ body #seccionUno .cmn-divfloat { position: fixed !important; bottom: 45px; right
 
 body #seccionUno .cmn-divfloat a { background: #e9b530; border: none; color: #FFF; }
 
-body #seccionUno .cmn-divfloat a:hover { opacity: 70%; color: #4c5055; }
+body #seccionUno .cmn-divfloat a:hover { color: #4c5055; }
 
 body #seccionUno .cmn-btncircle { width: 40px !important; height: 40px !important; padding: 6px 0px; border-radius: 15px; font-size: 18px; text-align: center; }
 
