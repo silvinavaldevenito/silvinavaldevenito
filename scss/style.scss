@@ -271,6 +271,9 @@ body {
 
 @media screen and (max-width: 768px) {
     body {
+        .titulo-seccion {
+            margin-bottom: 0px;
+        }
         #seccionDos {
             .columna-imagenes {
                 img {
