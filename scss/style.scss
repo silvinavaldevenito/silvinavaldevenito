@@ -271,9 +271,16 @@ body {
 
 @media screen and (max-width: 768px) {
     body {
+        #seccionDos {
+            .columna-imagenes {
+                img {
+                    margin-bottom: 12px;
+                }
+            }
+        }
         #seccionTres {
             .card {
-                margin-bottom: 20px;
+                margin-bottom: 12px;
                 &.card-large {
                     height: 400px;
                 }

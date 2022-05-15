@@ -119,6 +119,7 @@ body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #
 
 @media screen and (max-width: 991px) { body .navbar .navbar-brand { font-size: 22px; margin-left: 0; } }
 
-@media screen and (max-width: 768px) { body #seccionTres .card { margin-bottom: 20px; }
+@media screen and (max-width: 768px) { body #seccionDos .columna-imagenes img { margin-bottom: 12px; }
+  body #seccionTres .card { margin-bottom: 12px; }
   body #seccionTres .card.card-large { height: 400px; } }
 /*# sourceMappingURL=style.css.map */
