@@ -114,10 +114,16 @@ body {
                 background-image: url("../css/img/img5.jpg");
                 background-repeat: no-repeat;
                 background-size: cover;
-                height: 100vh;
+                background-position: center;
+                height: 80vh;
                 color: white;
                 text-align: center;
-                padding: 4rem 70px;
+
+                .wrapper-biografia {
+                    background-color: rgba(0,0,0,0.2);
+                    align-items: center;
+                    height: 100%;
+                }
             }
             .row{
                 --bs-gutter-x: 0 rem;
