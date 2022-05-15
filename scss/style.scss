@@ -269,8 +269,15 @@ body {
     }
 }
 
-// @media screen and (max-width: 768px) {
-//     body {
-        
-//     }
-// }
+@media screen and (max-width: 768px) {
+    body {
+        #seccionTres {
+            .card {
+                margin-bottom: 20px;
+                &.card-large {
+                    height: 400px;
+                }
+            }
+        }
+    }
+}

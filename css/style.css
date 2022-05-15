@@ -118,4 +118,7 @@ body #seccionCuatro { margin-bottom: 30px; height: 75vh; }
 body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #e9b530; border-radius: 50%; display: inline-block; margin: 45px 5px; }
 
 @media screen and (max-width: 991px) { body .navbar .navbar-brand { font-size: 22px; margin-left: 0; } }
+
+@media screen and (max-width: 768px) { body #seccionTres .card { margin-bottom: 20px; }
+  body #seccionTres .card.card-large { height: 400px; } }
 /*# sourceMappingURL=style.css.map */
