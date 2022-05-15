@@ -121,11 +121,13 @@ body {
                 height: 80vh;
                 color: white;
                 text-align: center;
+                background-attachment: fixed;
 
                 .wrapper-biografia {
                     background-color: rgba(0,0,0,0.2);
                     align-items: center;
                     height: 100%;
+                    padding: 12px;
                 }
             }
             .row{
