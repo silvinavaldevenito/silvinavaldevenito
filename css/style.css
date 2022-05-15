@@ -81,7 +81,7 @@ body #seccionDos ul { font-size: 14px; list-style: none; padding: 0; }
 
 body #seccionDos ul li { margin-bottom: 15px; }
 
-body #seccionDos .columna-imagenes img { margin-bottom: 25px; }
+body #seccionDos .columna-imagenes img { margin-bottom: 25px; border-radius: 8px; }
 
 body #seccionTres .card { position: relative; margin-bottom: 40px; height: 400px; background-size: cover; background-position: center; }
 
