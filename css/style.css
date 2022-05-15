@@ -33,7 +33,7 @@ body .titulo-seccion { margin-bottom: 50px; padding-bottom: 15px; }
 
 body .subtitle { text-transform: uppercase; border-bottom: 1px solid #4C5055; }
 
-body .navbar { border-top: 5px solid; -o-border-image: linear-gradient(to right, #efcf32, #e9b530, #D46F2E, #C9252C, #9F2186, #832980, #302F71, #75C0DC) 8; border-image: -webkit-gradient(linear, left top, right top, from(#efcf32), color-stop(#e9b530), color-stop(#D46F2E), color-stop(#C9252C), color-stop(#9F2186), color-stop(#832980), color-stop(#302F71), to(#75C0DC)) 8; border-image: linear-gradient(to right, #efcf32, #e9b530, #D46F2E, #C9252C, #9F2186, #832980, #302F71, #75C0DC) 8; position: absolute; z-index: 1; opacity: 70%; width: 100%; }
+body .navbar { border-top: 5px solid; -o-border-image: linear-gradient(to right, #efcf32, #e9b530, #D46F2E, #C9252C, #9F2186, #832980, #302F71, #75C0DC) 8; border-image: -webkit-gradient(linear, left top, right top, from(#efcf32), color-stop(#e9b530), color-stop(#D46F2E), color-stop(#C9252C), color-stop(#9F2186), color-stop(#832980), color-stop(#302F71), to(#75C0DC)) 8; border-image: linear-gradient(to right, #efcf32, #e9b530, #D46F2E, #C9252C, #9F2186, #832980, #302F71, #75C0DC) 8; position: absolute; z-index: 1; opacity: 70%; width: 100%; position: fixed; }
 
 body .navbar .navbar-brand { color: white; font-size: 30px; font-family: "GothamRoundedBold", sans-serif; margin-left: 20px; text-transform: uppercase; }
 
