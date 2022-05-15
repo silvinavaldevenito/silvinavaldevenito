@@ -2,6 +2,14 @@
 @import "footer";
 @import url(https://use.fontawesome.com/releases/v5.8.1/css/all.css);
 
+@mixin clearfix {
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+}
+
 body {
     font-family: "GothamRoundedBook", sans-serif;
     color: #4C5055;
@@ -146,15 +154,13 @@ body {
         }
     }
     #seccionTres {
-        .card-img-top {
-            height: 400px;
-        }
-        .card-img-bottom {
-            height: 600px;
-        }
         .card {
             position: relative;
             margin-bottom: 40px;
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+            @include clearfix;
             .card-shadow {
                 position: absolute;
                 top: 0;
@@ -167,6 +173,7 @@ body {
                 position: absolute;
                 bottom: 0;
                 left: 0;
+                width: 100%;
 
                 .card-title {
                     display: none;
@@ -176,6 +183,7 @@ body {
                     margin-bottom: 30px;
                     font-size: 30px;
                     font-family: "GothamRoundedLight", sans-serif;
+                    text-align: center;
                 }
                 .btn {
                     font-size: 15px;
@@ -188,6 +196,24 @@ body {
                     padding: 8px 25px;
                     margin-bottom: 30px;
                 }
+            }
+            &.card-large {
+                height: 600px;
+            }
+            &.card1 {
+                background-image: url("../css/img/img11.jpg");
+            }
+            &.card2 {
+                background-image: url("../css/img/img13.jpg");
+            }
+            &.card3 {
+                background-image: url("../css/img/img14.jpeg");
+            }
+            &.card4 {
+                background-image: url("../css/img/img3.jpg");
+            }
+            &.card5 {
+                background-image: url("../css/img/img12.jpg");
             }
         }
     }
