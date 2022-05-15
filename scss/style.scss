@@ -104,7 +104,6 @@ body {
             .textoBiografiaUno {
                 justify-content: center;
                 text-align: center;
-                height: 55vh;
                 .row {
                     padding: 25px 0;
                     margin: 20px 1rem;
@@ -244,7 +243,6 @@ body {
     }
     #seccionCuatro{
         margin-bottom: 30px;
-        height: 75vh;
     }
     .final-seccion {
         .yellow-dot {
@@ -271,8 +269,14 @@ body {
 
 @media screen and (max-width: 768px) {
     body {
+        .seccion {
+            margin-top: 20px;
+        }
         .titulo-seccion {
             margin-bottom: 0px;
+        }
+        #seccionUno {
+
         }
         #seccionDos {
             .columna-imagenes {
