@@ -74,6 +74,8 @@ body {
         background-position: center right;
         height: 100vh;
         background-image: url("../css/img/img1.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     #seccionUno {
         padding: 20px 0;
