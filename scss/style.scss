@@ -256,6 +256,17 @@ body {
     }
     #seccionCuatro{
         margin-bottom: 30px;
+        .contenedorBotoncontacto{
+            .botonContacto{
+                button{
+                    font-family: "GothamRoundedMedium", sans-serif;
+                    color: #fff;
+                }
+                button:hover{
+                    color: #4c5055;
+                }
+            }
+        }
     }
     .final-seccion {
         .yellow-dot {
