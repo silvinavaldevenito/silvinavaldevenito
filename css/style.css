@@ -95,7 +95,9 @@ body #seccionTres .card .card-body .card-title { font-size: 40px; color: #fff; }
 
 body #seccionTres .card .card-body .card-text { color: #FFFFFF; margin-bottom: 30px; font-size: 25px; font-family: "GothamRoundedLight", sans-serif; text-align: center; }
 
-body #seccionTres .card .card-body .btn { font-size: 15px; background-color: #e9b530; border-color: transparent; color: #FFFFFF; font-family: "GothamRoundedMedium", sans-serif; text-transform: uppercase; border-radius: 12px; padding: 8px 25px; margin-bottom: 30px; }
+body #seccionTres .card .card-body .btn { font-size: 15px; background-color: #e9b530; border-color: transparent; font-family: "GothamRoundedMedium", sans-serif; text-transform: uppercase; border-radius: 12px; padding: 8px 25px; margin-bottom: 30px; }
+
+body #seccionTres .card .card-body .btn a { -webkit-text-decoration-line: none; text-decoration-line: none; color: #fff; }
 
 body #seccionTres .card.card-large { height: 600px; }
 
