@@ -113,7 +113,7 @@ body #seccionTres .card.card5 { background-image: url("../css/img/img12.jpg"); }
 
 body #seccionTres .card:hover { cursor: pointer; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); -webkit-transform: scale(1.02); transform: scale(1.02); }
 
-body #seccionTres .card:hover .card-body .btn { color: #4c5055; }
+body #seccionTres .card:hover .card-body .btn a { color: #4c5055; }
 
 body #seccionCuatro { margin-bottom: 30px; }
 

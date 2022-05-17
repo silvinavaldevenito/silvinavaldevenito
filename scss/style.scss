@@ -246,7 +246,9 @@ body {
                 transform: scale(1.02);
                 .card-body {
                     .btn {
-                        color: #4c5055;
+                        a{
+                            color: #4c5055;
+                        }
                     }
                 }
             }
