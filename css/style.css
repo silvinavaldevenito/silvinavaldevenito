@@ -109,7 +109,7 @@ body #seccionTres .card.card3 { background-image: url("../css/img/img16.jpeg"); 
 
 body #seccionTres .card.card4 { background-image: url("../css/img/img13.jpeg"); }
 
-body #seccionTres .card.card5 { background-image: url("../css/img/img12.jpg"); }
+body #seccionTres .card.card5 { background-image: url("../css/img/img17.jpg"); }
 
 body #seccionTres .card:hover { cursor: pointer; -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); -webkit-transform: scale(1.02); transform: scale(1.02); }
 
