@@ -314,6 +314,12 @@ body {
 
 @media screen and (max-width: 768px) {
     body {
+        .navbar {
+            img {
+                width: 40%;
+                margin: 0;
+            }
+        }
         .seccion {
             margin-top: 20px;
         }
