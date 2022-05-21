@@ -82,6 +82,15 @@ body {
         background-image: url("../css/img/img1.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
+        display: flex;
+        flex-flow: column-reverse;
+        h2 {
+            // background:#AB4A73;
+            // opacity: 70%;
+            padding:20px;
+           color: #fff;
+           width: 60%;
+        }
     }
     #seccionUno {
         padding: 20px 0;
