@@ -138,7 +138,7 @@ body {
                 background-image: url("../css/img/img5.jpg");
                 background-repeat: no-repeat;
                 background-size: cover;
-                background-position: center;
+                background-position: center; 
                 height: 80vh;
                 color: white;
                 text-align: center;
@@ -161,14 +161,19 @@ body {
         article {
             margin-bottom: 20px;
             font-size: 14px;
-            color: #BBB;
         }
         .darker {
-            color: #999;
             font-family: "GothamRoundedMedium", sans-serif;
         }
         .skyblue {
-            color: #93D4EE;
+            
+            h3{
+                text-align: left;
+                font-family: "GothamRoundedBold";
+            }
+            ol{
+                color: black;
+            }
         }
         ul {
             font-size: 14px;
@@ -362,7 +367,7 @@ body {
                 .articuloOculto{
                     display: block;
                     text-align: center;
-                    color: #93D4EE;
+                    color: #EF33A2;
  
                 }
             }

@@ -75,11 +75,13 @@ body #seccionUno .textoUno .textoBiografiaDos .wrapper-biografia { background-co
 
 body #seccionUno .textoUno .row { --bs-gutter-x: 0 rem; }
 
-body #seccionDos article { margin-bottom: 20px; font-size: 14px; color: #BBB; }
+body #seccionDos article { margin-bottom: 20px; font-size: 14px; }
 
-body #seccionDos .darker { color: #999; font-family: "GothamRoundedMedium", sans-serif; }
+body #seccionDos .darker { font-family: "GothamRoundedMedium", sans-serif; }
 
-body #seccionDos .skyblue { color: #93D4EE; }
+body #seccionDos .skyblue h3 { text-align: left; font-family: "GothamRoundedBold"; }
+
+body #seccionDos .skyblue ol { color: black; }
 
 body #seccionDos ul { font-size: 14px; list-style: none; padding: 0; }
 
@@ -148,7 +150,7 @@ body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #
   body .titulo-seccion { margin-bottom: 0px; }
   body #seccionDos .principalAOcultar { display: none; }
   body #seccionDos .columna-imagenes img { margin-bottom: 12px; width: 100%; }
-  body #seccionDos .columna-imagenes .articuloOculto { display: block; text-align: center; color: #93D4EE; }
+  body #seccionDos .columna-imagenes .articuloOculto { display: block; text-align: center; color: #EF33A2; }
   body #seccionTres .card { margin-bottom: 12px; }
   body #seccionTres .card.card-large { height: 400px; } }
 /*# sourceMappingURL=style.css.map */
