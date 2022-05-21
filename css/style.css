@@ -53,6 +53,8 @@ body .imgHome { position: relative; background-size: cover; width: 100%; backgro
 
 body .imgHome .textoIndex { padding: 20px; color: #fff; width: 60%; }
 
+body .imgHome .textoIndex h2 { text-align: left; }
+
 body #seccionUno { padding: 20px 0; }
 
 body #seccionUno .cmn-divfloat { position: fixed !important; bottom: 45px; right: 15px; display: none; z-index: 1; }

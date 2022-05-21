@@ -86,8 +86,11 @@ body {
         flex-flow: column-reverse;
         .textoIndex {
             padding:20px;
-           color: #fff;
-           width: 60%;
+            color: #fff;
+            width: 60%;
+            h2 {
+                text-align: left;
+            }
         }
     }
     #seccionUno {
