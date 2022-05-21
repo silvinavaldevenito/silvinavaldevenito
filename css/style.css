@@ -23,7 +23,7 @@ footer .copyright { background-color: rgba(0, 0, 0, 0.2); }
 
 footer .separador { color: #fff; }
 
-body { font-family: "GothamRoundedBook", sans-serif; color: #4C5055; }
+body { background-image: url(../css/img/314.jpg); background-attachment: fixed; font-family: "GothamRoundedBook", sans-serif; color: #4C5055; }
 
 body h2 { text-align: center; font-size: 50px; font-family: "GothamRoundedMedium", sans-serif; font-weight: normal; }
 
