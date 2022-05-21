@@ -135,9 +135,11 @@ body #seccionCuatro .contenedorBotoncontacto .botonContacto button { font-family
 
 body #seccionCuatro .contenedorBotoncontacto .botonContacto button:hover { color: #4c5055; }
 
-body #seccionCuatro .contenedorBoton .imgBoton { margin-left: 9%; }
+body #seccionCuatro .contenedorBoton .modBoton { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-body #seccionCuatro .contenedorBoton p { text-align: center; }
+body #seccionCuatro .contenedorBoton .modBoton .imgBoton { width: 90%; }
+
+body #seccionCuatro .contenedorBoton .modText { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #e9b530; border-radius: 50%; display: inline-block; margin: 45px 5px; }
 
@@ -157,6 +159,5 @@ body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #
   body #seccionTres .card.card-large { height: 400px; } }
 
 @media screen and (max-width: 446px) { body #seccionTres .card .card-body .card-title { font-size: 30px; }
-  body #seccionTres .card .card-body .card-text { font-size: 20px; }
-  body #seccionCuatro .contenedorBoton .imgBoton { margin-left: 0; } }
+  body #seccionTres .card .card-body .card-text { font-size: 20px; } }
 /*# sourceMappingURL=style.css.map */

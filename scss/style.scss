@@ -301,11 +301,17 @@ body {
             }
         }
         .contenedorBoton{
-            .imgBoton{
-                margin-left: 9%;
+            .modBoton{
+                display: flex;
+                justify-content: center;
+                .imgBoton{
+                    width: 90%;
+                    
+                }
             }
-            p {
-                text-align: center;
+            .modText {
+                display: flex;
+                justify-content: center;
             }
         }
     }
@@ -400,13 +406,6 @@ body {
                     }
                 }
             } 
-        }
-        #seccionCuatro {
-            .contenedorBoton{
-                .imgBoton{
-                    margin-left: 0;
-                }
-            } 
-        }  
+        } 
     }
 }
