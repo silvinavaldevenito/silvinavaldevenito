@@ -260,6 +260,12 @@ body {
     }
     #seccionCuatro{
         margin-bottom: 30px;
+        form{
+            margin-top: 15px;
+            input{
+                margin-bottom: 30px;
+            }
+        }
         .contenedorBotoncontacto{
             .botonContacto{
                 button{
@@ -269,6 +275,13 @@ body {
                 button:hover{
                     color: #4c5055;
                 }
+            }
+        }
+        .contenedorBoton{
+            width: 400px;
+            p{
+                width: 420px;
+                text-align: center;
             }
         }
     }
