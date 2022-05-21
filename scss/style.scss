@@ -166,7 +166,6 @@ body {
             font-family: "GothamRoundedMedium", sans-serif;
         }
         .skyblue {
-            
             h3{
                 text-align: left;
                 font-family: "GothamRoundedBold";
@@ -367,10 +366,16 @@ body {
                 .articuloOculto{
                     display: block;
                     text-align: center;
-                    color: #EF33A2;
- 
+                    h3{
+                        text-align: center;
+                        font-family: "GothamRoundedBold";
+                    }
+                    ol{
+                        color: black;
+                    }
                 }
             }
+        
         }
         #seccionTres {
             .card {
