@@ -51,7 +51,9 @@ body .seccion { margin-top: 6%; padding-top: 6%; }
 
 body .imgHome { position: relative; background-size: cover; width: 100%; background-position: center right; height: 100vh; background-image: url("../css/img/img1.jpg"); background-repeat: no-repeat; background-attachment: fixed; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-flow: column-reverse; flex-flow: column-reverse; }
 
-body .imgHome h2 { padding: 20px; color: #fff; width: 60%; }
+body .imgHome .textoIndex { padding: 20px; color: #fff; width: 60%; }
+
+body .imgHome .textoIndex h2 { text-align: left; }
 
 body #seccionUno { padding: 20px 0; }
 
@@ -85,7 +87,7 @@ body #seccionDos ul { font-size: 14px; list-style: none; padding: 0; }
 
 body #seccionDos ul li { margin-bottom: 15px; }
 
-body #seccionDos .columna-imagenes img { margin-bottom: 25px; border-radius: 8px; }
+body #seccionDos .img-propuesta { margin-bottom: 25px; border-radius: 8px; }
 
 body #seccionTres .card { position: relative; margin-bottom: 40px; height: 400px; background-size: cover; background-position: center; border-radius: 8px; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
 
@@ -123,21 +125,22 @@ body #seccionCuatro { margin-bottom: 30px; }
 
 body #seccionCuatro form { margin-top: 15px; }
 
-body #seccionCuatro form input { margin-bottom: 30px; }
+body #seccionCuatro form input { margin-bottom: 30px; color: #FFFFFF; }
 
 body #seccionCuatro .contenedorBotoncontacto .botonContacto button { font-family: "GothamRoundedMedium", sans-serif; color: #fff; }
 
 body #seccionCuatro .contenedorBotoncontacto .botonContacto button:hover { color: #4c5055; }
 
-body #seccionCuatro .contenedorBoton { width: 400px; }
-
-body #seccionCuatro .contenedorBoton p { width: 420px; text-align: center; }
+body #seccionCuatro .contenedorBoton p { text-align: center; }
 
 body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #e9b530; border-radius: 50%; display: inline-block; margin: 45px 5px; }
 
 @media screen and (max-width: 991px) { body .navbar .navbar-brand { font-size: 22px; margin-left: 0; } }
 
-@media screen and (max-width: 768px) { body .seccion { margin-top: 20px; }
+@media screen and (max-width: 768px) { body .navbar img { width: 40%; margin: 0; }
+  body .imgHome .textoIndex { width: 100%; }
+  body .imgHome .textoIndex h2 { font-size: 25px; }
+  body .seccion { margin-top: 20px; }
   body .titulo-seccion { margin-bottom: 0px; }
   body #seccionDos .columna-imagenes img { margin-bottom: 12px; }
   body #seccionTres .card { margin-bottom: 12px; }
