@@ -87,7 +87,9 @@ body #seccionDos ul { font-size: 14px; list-style: none; padding: 0; }
 
 body #seccionDos ul li { margin-bottom: 15px; }
 
-body #seccionDos .img-propuesta { margin-bottom: 25px; border-radius: 8px; }
+body #seccionDos .img { border-radius: 8px; margin-top: 2%; }
+
+body #seccionDos .img .img-fluid { margin-bottom: 10%; }
 
 body #seccionTres .card { position: relative; margin-bottom: 40px; height: 400px; background-size: cover; background-position: center; border-radius: 8px; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
 
@@ -142,7 +144,7 @@ body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #
   body .imgHome .textoIndex h2 { font-size: 25px; }
   body .seccion { margin-top: 20px; }
   body .titulo-seccion { margin-bottom: 0px; }
-  body #seccionDos .columna-imagenes img { margin-bottom: 12px; }
+  body #seccionDos .columna-imagenes img { margin-bottom: 12px; width: 100%; }
   body #seccionTres .card { margin-bottom: 12px; }
   body #seccionTres .card.card-large { height: 400px; } }
 /*# sourceMappingURL=style.css.map */

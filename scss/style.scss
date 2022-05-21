@@ -175,9 +175,13 @@ body {
                 margin-bottom: 15px;
             }
         }
-        .img-propuesta {
-            margin-bottom: 25px;
+        .img { 
             border-radius: 8px;
+            margin-top: 2%;
+            .img-fluid{
+                margin-bottom: 10%;
+            }
+            
         }
     }
     #seccionTres {
@@ -341,6 +345,7 @@ body {
             .columna-imagenes {
                 img {
                     margin-bottom: 12px;
+                    width: 100%;
                 }
             }
         }
