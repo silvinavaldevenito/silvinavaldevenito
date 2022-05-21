@@ -155,4 +155,8 @@ body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #
   body #seccionDos .columna-imagenes .articuloOculto ol { color: black; }
   body #seccionTres .card { margin-bottom: 12px; }
   body #seccionTres .card.card-large { height: 400px; } }
+
+@media screen and (max-width: 446px) { body #seccionTres .card .card-body .card-title { font-size: 30px; }
+  body #seccionTres .card .card-body .card-text { font-size: 20px; }
+  body #seccionCuatro .contenedorBoton .imgBoton { margin-left: 0; } }
 /*# sourceMappingURL=style.css.map */
