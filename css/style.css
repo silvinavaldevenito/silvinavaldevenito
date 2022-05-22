@@ -147,7 +147,7 @@ body #seccionCuatro .contenedorBoton .modText { display: -webkit-box; display: -
 
 body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #e9b530; border-radius: 50%; display: inline-block; margin: 45px 5px; }
 
-@media screen and (max-width: 991px) { body .navbar .container-fluid img { width: 20%; }
+@media screen and (max-width: 991px) { body .navbar .container-fluid img { width: 40%; }
   body .navbar .container-fluid .collapse { text-align: center; }
   body .navbar .container-fluid .collapse .navbar-nav { width: 88vw; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
   body .navbar .navbar-brand { font-size: 22px; margin-left: 0; } }
