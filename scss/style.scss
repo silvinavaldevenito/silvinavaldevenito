@@ -45,6 +45,7 @@ body {
         opacity: 70%;
         width: 100%;
         position: fixed;
+        text-align: center;
         img{
             width:15%;
             margin-left: 4rem;
@@ -61,6 +62,7 @@ body {
         }
         .navbar-nav {
             margin-right: 30px;
+            justify-content: center;
             .nav-link {
                 color: white;
                 margin-right: 20px;
@@ -69,6 +71,7 @@ body {
         }
         .navbar-nav .nav-link:hover {
             color: #e9b530;
+
         }
     }
     .seccion {
@@ -341,7 +344,7 @@ body {
                 .collapse{
                     text-align: center;
                     .navbar-nav{
-                        width: 100vw;
+                        width: 88vw;
                         justify-content: center;
                     }
                 }
