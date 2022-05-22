@@ -334,6 +334,18 @@ body {
 @media screen and (max-width: 991px) {
     body {
         .navbar {
+            .container-fluid{
+                img{
+                    width:20%;
+                }
+                .collapse{
+                    text-align: center;
+                    .navbar-nav{
+                        width: 100vw;
+                        justify-content: center;
+                    }
+                }
+            }
             .navbar-brand {
                 font-size: 22px;
                 margin-left: 0;
