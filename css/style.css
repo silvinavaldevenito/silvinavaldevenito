@@ -156,7 +156,9 @@ body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #
 @media screen and (max-width: 991px) { body .navbar .container-fluid img { width: 40%; }
   body .navbar .container-fluid .collapse { text-align: center; }
   body .navbar .container-fluid .collapse .navbar-nav { width: 88vw; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
-  body .navbar .navbar-brand { font-size: 22px; margin-left: 0; } }
+  body .navbar .navbar-brand { font-size: 22px; margin-left: 0; }
+  body .imgHome .textoIndex { width: 100%; }
+  body .imgHome .textoIndex h2 { font-size: 25px; } }
 
 @media screen and (max-width: 768px) { body .navbar img { width: 60%; margin: 0; }
   body .imgHome .textoIndex { width: 100%; }
