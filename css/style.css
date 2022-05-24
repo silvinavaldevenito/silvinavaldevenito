@@ -7,6 +7,10 @@
 
 @font-face { font-family: 'GothamRoundedMedium'; src: url("./fonts/GothamRoundedMedium.otf") format("opentype"), url("./fonts/GothamRoundedMedium.ttf") format("truetype"); }
 
+@font-face { font-family: 'GothamRoundedBookItalic'; src: url("./fonts/GothamRoundedBookItalic.otf") format("opentype"), url("./fonts/GothamRoundedBookItalic.ttf") format("truetype"); }
+
+@font-face { font-family: 'GothamRoundedLightItalic'; src: url("./fonts/GothamRoundedLightItalic.otf") format("opentype"), url("./fonts/GothamRoundedLightItalic.ttf") format("truetype"); }
+
 footer { z-index: 2; border-top: 5px solid; -o-border-image: linear-gradient(to right, #efcf32, #e9b530, #D46F2E, #C9252C, #9F2186, #832980, #302F71, #75C0DC) 8; border-image: -webkit-gradient(linear, left top, right top, from(#efcf32), color-stop(#e9b530), color-stop(#D46F2E), color-stop(#C9252C), color-stop(#9F2186), color-stop(#832980), color-stop(#302F71), to(#75C0DC)) 8; border-image: linear-gradient(to right, #efcf32, #e9b530, #D46F2E, #C9252C, #9F2186, #832980, #302F71, #75C0DC) 8; background-color: #4c5055; position: relative; }
 
 footer img { width: 50%; }
@@ -52,6 +56,8 @@ body .seccion { margin-top: 30px; padding-top: 30px; }
 body .imgHome { position: relative; background-size: cover; width: 100%; background-position: center right; height: 100vh; background-image: url("../css/img/img1.jpg"); background-repeat: no-repeat; background-attachment: fixed; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-flow: column-reverse; flex-flow: column-reverse; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 body .imgHome .textoIndex { padding: 20px; color: #fff; margin-top: 20%; width: 70%; display: inline; }
+
+body .imgHome .textoIndex h2 { font-family: 'GothamRoundedLightItalic', sans-serif; }
 
 body #seccionUno { scroll-margin-top: 4em; padding: 20px 0; }
 

@@ -21,3 +21,15 @@
     src: url("./fonts/GothamRoundedMedium.otf") format("opentype"),
          url('./fonts/GothamRoundedMedium.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'GothamRoundedBookItalic';
+    src: url("./fonts/GothamRoundedBookItalic.otf") format("opentype"),
+         url('./fonts/GothamRoundedBookItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GothamRoundedLightItalic';
+    src: url("./fonts/GothamRoundedLightItalic.otf") format("opentype"),
+         url('./fonts/GothamRoundedLightItalic.ttf') format('truetype');
+}
