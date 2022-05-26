@@ -70,7 +70,7 @@ body {
             }
         }
         .navbar-nav .nav-link:hover {
-            color: #e9b530;
+            color: #ec2088;
 
         }
     }
@@ -110,7 +110,7 @@ body {
             right: 15px;
             display: none;
             a{
-                background: #e9b530;
+                background: #ec2088;
                 border:none;
                 color: #FFF;
             }
@@ -248,11 +248,11 @@ body {
                 }
                 .btn {
                     font-size: 15px;
-                    background-color: #e9b530;
+                    background-color: #ec2088;
                     border-color: transparent;
                     font-family: "GothamRoundedMedium", sans-serif;
                     text-transform: uppercase;
-                    border-radius: 12px;
+                    border-radius: 2px;
                     padding: 8px 25px;
                     margin-bottom: 30px;
                     a{
@@ -288,7 +288,7 @@ body {
                 .card-body {
                     .btn {
                         a{
-                            color: #4c5055;
+                            color: #832980;
                         }
                     }
                 }
@@ -310,9 +310,11 @@ body {
                 button{
                     font-family: "GothamRoundedMedium", sans-serif;
                     color: #fff;
+                    background-color: #ec2088;
+                    border-color: #ec2088;
                 }
                 button:hover{
-                    color: #4c5055;
+                    color: #832980;
                 }
             }
         }
@@ -335,7 +337,7 @@ body {
         .yellow-dot {
             width: 20px;
             height: 20px;
-            background-color: #e9b530;
+            background-color: #ec2088;
             border-radius: 50%;
             display: inline-block;
             margin: 45px 5px;

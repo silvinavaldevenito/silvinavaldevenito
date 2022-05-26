@@ -4,11 +4,11 @@ footer img { width: 50%; }
 
 footer a { color: #fff; text-decoration: none; }
 
-footer a:hover { color: #e9b530; }
+footer a:hover { color: #ec2088; }
 
 footer .iconos a i { color: #fff; -webkit-transition: all ease 200ms; transition: all ease 200ms; }
 
-footer .iconos a i:hover { color: #e9b530; -webkit-transform: scale(2); transform: scale(2); }
+footer .iconos a i:hover { color: #ec2088; -webkit-transform: scale(2); transform: scale(2); }
 
 footer .copyright { background-color: rgba(0, 0, 0, 0.2); }
 

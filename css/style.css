@@ -17,11 +17,11 @@ footer img { width: 50%; }
 
 footer a { color: #fff; text-decoration: none; }
 
-footer a:hover { color: #e9b530; }
+footer a:hover { color: #ec2088; }
 
 footer .iconos a i { color: #fff; -webkit-transition: all ease 200ms; transition: all ease 200ms; }
 
-footer .iconos a i:hover { color: #e9b530; -webkit-transform: scale(2); transform: scale(2); }
+footer .iconos a i:hover { color: #ec2088; -webkit-transform: scale(2); transform: scale(2); }
 
 footer .copyright { background-color: rgba(0, 0, 0, 0.2); }
 
@@ -49,7 +49,7 @@ body .navbar .navbar-nav { margin-right: 30px; -webkit-box-pack: center; -ms-fle
 
 body .navbar .navbar-nav .nav-link { color: white; margin-right: 20px; font-size: 13px; }
 
-body .navbar .navbar-nav .nav-link:hover { color: #e9b530; }
+body .navbar .navbar-nav .nav-link:hover { color: #ec2088; }
 
 body .seccion { margin-top: 30px; padding-top: 30px; }
 
@@ -63,7 +63,7 @@ body #seccionUno { scroll-margin-top: 4em; padding: 20px 0; }
 
 body #seccionUno .cmn-divfloat { position: fixed !important; bottom: 10px; right: 15px; display: none; z-index: 1; }
 
-body #seccionUno .cmn-divfloat a { background: #e9b530; border: none; color: #FFF; }
+body #seccionUno .cmn-divfloat a { background: #ec2088; border: none; color: #FFF; }
 
 body #seccionUno .cmn-divfloat a:hover { color: #4c5055; }
 
@@ -119,7 +119,7 @@ body #seccionTres .card .card-body .card-title { font-size: 2rem; color: #fff; }
 
 body #seccionTres .card .card-body .card-text { color: #FFFFFF; margin-bottom: 30px; font-size: 1.5rem; font-family: "GothamRoundedLight", sans-serif; text-align: center; }
 
-body #seccionTres .card .card-body .btn { font-size: 15px; background-color: #e9b530; border-color: transparent; font-family: "GothamRoundedMedium", sans-serif; text-transform: uppercase; border-radius: 12px; padding: 8px 25px; margin-bottom: 30px; }
+body #seccionTres .card .card-body .btn { font-size: 15px; background-color: #ec2088; border-color: transparent; font-family: "GothamRoundedMedium", sans-serif; text-transform: uppercase; border-radius: 2px; padding: 8px 25px; margin-bottom: 30px; }
 
 body #seccionTres .card .card-body .btn a { -webkit-text-decoration-line: none; text-decoration-line: none; color: #fff; }
 
@@ -137,7 +137,7 @@ body #seccionTres .card.card5 { background-image: url("../css/img/img17.jpg"); }
 
 body #seccionTres .card:hover { cursor: pointer; -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); -webkit-transform: scale(1.02); transform: scale(1.02); }
 
-body #seccionTres .card:hover .card-body .btn a { color: #4c5055; }
+body #seccionTres .card:hover .card-body .btn a { color: #832980; }
 
 body #seccionCuatro { scroll-margin-top: 4em; margin-bottom: 30px; }
 
@@ -145,9 +145,9 @@ body #seccionCuatro form { margin-top: 15px; }
 
 body #seccionCuatro form input { margin-bottom: 30px; color: #FFFFFF; }
 
-body #seccionCuatro .contenedorBotoncontacto .botonContacto button { font-family: "GothamRoundedMedium", sans-serif; color: #fff; }
+body #seccionCuatro .contenedorBotoncontacto .botonContacto button { font-family: "GothamRoundedMedium", sans-serif; color: #fff; background-color: #ec2088; border-color: #ec2088; }
 
-body #seccionCuatro .contenedorBotoncontacto .botonContacto button:hover { color: #4c5055; }
+body #seccionCuatro .contenedorBotoncontacto .botonContacto button:hover { color: #832980; }
 
 body #seccionCuatro .contenedorBoton .modBoton { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
@@ -155,7 +155,7 @@ body #seccionCuatro .contenedorBoton .modBoton .imgBoton { width: 90%; }
 
 body #seccionCuatro .contenedorBoton .modText { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #e9b530; border-radius: 50%; display: inline-block; margin: 45px 5px; }
+body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #ec2088; border-radius: 50%; display: inline-block; margin: 45px 5px; }
 
 @media screen and (max-width: 991px) { body .navbar .container-fluid img { width: 40%; }
   body .navbar .container-fluid .collapse { text-align: center; }
