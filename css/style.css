@@ -107,11 +107,11 @@ body #seccionDos .img .articuloOculto h3 { text-transform: uppercase; }
 
 body #seccionTres { scroll-margin-top: 4em; }
 
-body #seccionTres .card { position: relative; margin-bottom: 40px; height: 400px; background-size: cover; background-position: center; border-radius: 8px; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
+body #seccionTres .card { position: relative; margin-bottom: 40px; height: 400px; background-size: cover; background-position: center; border-radius: 2px; -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); -webkit-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 body #seccionTres .card:after { content: ""; display: table; clear: both; }
 
-body #seccionTres .card .card-shadow { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.2); border-radius: 8px; }
+body #seccionTres .card .card-shadow { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.2); border-radius: 2px; }
 
 body #seccionTres .card .card-body { position: absolute; bottom: 0; left: 0; width: 100%; }
 
