@@ -151,7 +151,7 @@ body #seccionCuatro .contenedorBotoncontacto .botonContacto button:hover { color
 
 body #seccionCuatro .contenedorBoton .modBoton { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-body #seccionCuatro .contenedorBoton .modBoton .imgBoton { width: 90%; }
+body #seccionCuatro .contenedorBoton .modBoton .imgBoton { width: 75%; }
 
 body #seccionCuatro .contenedorBoton .modText { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
