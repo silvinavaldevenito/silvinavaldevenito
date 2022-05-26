@@ -153,7 +153,7 @@ body #seccionCuatro .contenedorBoton .modBoton { display: -webkit-box; display: 
 
 body #seccionCuatro .contenedorBoton .modBoton .imgBoton { width: 75%; }
 
-body #seccionCuatro .contenedorBoton .modText { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+body #seccionCuatro .contenedorBoton .modText { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; color: #832980; }
 
 body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #ec2088; border-radius: 50%; display: inline-block; margin: 45px 5px; }
 
