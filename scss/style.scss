@@ -322,15 +322,18 @@ body {
             .modBoton{
                 display: flex;
                 justify-content: center;
-                .imgBoton{
-                    width: 75%;
-                    
+                a{
+                    justify-content: center;
+                    .imgBoton{
+                        width: 81%;
+                    }
                 }
             }
             .modText {
                 display: flex;
                 justify-content: center;
                 color: #832980;
+                padding-right: 21%;
             }
         }
     }
