@@ -92,7 +92,7 @@ body {
         justify-content: center;
         .textoIndex {
             padding:20px;
-            color: #fff;
+            color:#fff;
             margin-top: 20%;
             width: 70%;
             display: inline;
@@ -154,7 +154,7 @@ body {
                     align-items: center;
                     height: 100%;
                     padding: 12px;
-                    font-size: 1.5rem;
+                    font-size: 1rem;
                 }
             }
             .row{
@@ -323,17 +323,18 @@ body {
                 display: flex;
                 justify-content: center;
                 a{
+                    text-align: center;
                     justify-content: center;
                     .imgBoton{
-                        width: 81%;
+                        width: 75%;
                     }
                 }
             }
             .modText {
                 display: flex;
+                text-align: center;
                 justify-content: center;
                 color: #832980;
-                padding-right: 21%;
             }
         }
     }

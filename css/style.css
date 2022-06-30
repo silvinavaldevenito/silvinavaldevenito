@@ -77,7 +77,7 @@ body #seccionUno .textoUno .textoBiografiaUno .row { padding: 25px 0; margin: 20
 
 body #seccionUno .textoUno .textoBiografiaDos { border-top: 5px solid; -o-border-image: linear-gradient(to right, #efcf32, #e9b530, #D46F2E, #C9252C, #9F2186, #832980, #302F71, #75C0DC) 8; border-image: -webkit-gradient(linear, left top, right top, from(#efcf32), color-stop(#e9b530), color-stop(#D46F2E), color-stop(#C9252C), color-stop(#9F2186), color-stop(#832980), color-stop(#302F71), to(#75C0DC)) 8; border-image: linear-gradient(to right, #efcf32, #e9b530, #D46F2E, #C9252C, #9F2186, #832980, #302F71, #75C0DC) 8; background-image: url("../css/img/img5.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center; height: 80vh; color: white; text-align: center; }
 
-body #seccionUno .textoUno .textoBiografiaDos .wrapper-biografia { background-color: rgba(0, 0, 0, 0.2); -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 100%; padding: 12px; font-size: 1.5rem; }
+body #seccionUno .textoUno .textoBiografiaDos .wrapper-biografia { background-color: rgba(0, 0, 0, 0.2); -webkit-box-align: center; -ms-flex-align: center; align-items: center; height: 100%; padding: 12px; font-size: 1rem; }
 
 body #seccionUno .textoUno .row { --bs-gutter-x: 0 rem; }
 
@@ -151,11 +151,11 @@ body #seccionCuatro .contenedorBotoncontacto .botonContacto button:hover { color
 
 body #seccionCuatro .contenedorBoton .modBoton { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-body #seccionCuatro .contenedorBoton .modBoton a { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+body #seccionCuatro .contenedorBoton .modBoton a { text-align: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
-body #seccionCuatro .contenedorBoton .modBoton a .imgBoton { width: 81%; }
+body #seccionCuatro .contenedorBoton .modBoton a .imgBoton { width: 75%; }
 
-body #seccionCuatro .contenedorBoton .modText { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; color: #832980; padding-right: 21%; }
+body #seccionCuatro .contenedorBoton .modText { display: -webkit-box; display: -ms-flexbox; display: flex; text-align: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; color: #832980; }
 
 body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #ec2088; border-radius: 50%; display: inline-block; margin: 45px 5px; }
 
