@@ -90,13 +90,13 @@ body #seccionDos .darker { font-family: "GothamRoundedMedium", sans-serif; }
 
 body #seccionDos .skyblue { padding: 2rem 0; }
 
-body #seccionDos .skyblue .capaUno { font-size: 8rem; font-family: 'Ubuntu', sans-serif; color: #b0b0b0; position: absolute; z-index: -1; }
+body #seccionDos .skyblue .capaUno { font-size: 9rem; font-family: 'Ubuntu', sans-serif; color: #b0b0b0; position: absolute; z-index: -1; }
 
-body #seccionDos .skyblue .contPropuesta { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-left: 5.5rem; padding-top: 5rem; }
+body #seccionDos .skyblue .contPropuesta { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-left: 1.2rem; padding-top: 5.5rem; }
 
-body #seccionDos .skyblue .contPropuesta h4 { text-align: left; font-family: "GothamRoundedBold"; text-transform: uppercase; font-size: 2.5rem; }
+body #seccionDos .skyblue .contPropuesta .tituloCapa { text-align: left; font-family: "GothamRoundedBold"; text-transform: uppercase; font-size: 2rem; }
 
-body #seccionDos .skyblue .contPropuesta ol { color: black; padding: 1rem 0; }
+body #seccionDos .skyblue .contPropuesta ol { color: black; padding: 2rem 0; }
 
 body #seccionDos ul { font-size: 14px; list-style: none; padding: 0; }
 
