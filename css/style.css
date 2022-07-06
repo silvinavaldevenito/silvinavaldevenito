@@ -92,7 +92,7 @@ body #seccionDos .skyblue { padding: 2rem 0; }
 
 body #seccionDos .skyblue .capaUno { font-size: 8rem; font-family: 'Ubuntu', sans-serif; color: #b0b0b0; position: absolute; z-index: -1; }
 
-body #seccionDos .skyblue .contPropuesta { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-left: 20%; padding-top: 20%; }
+body #seccionDos .skyblue .contPropuesta { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-left: 5.5rem; padding-top: 5rem; }
 
 body #seccionDos .skyblue .contPropuesta h4 { text-align: left; font-family: "GothamRoundedBold"; text-transform: uppercase; font-size: 2.5rem; }
 
