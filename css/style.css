@@ -1,4 +1,5 @@
 @import url(https://use.fontawesome.com/releases/v5.8.1/css/all.css);
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap);
 @font-face { font-family: 'GothamRoundedBold'; src: url("./fonts/GothamRoundedBold.otf") format("opentype"), url("./fonts/GothamRoundedBold.ttf") format("truetype"); }
 
 @font-face { font-family: 'GothamRoundedBook'; src: url("./fonts/GothamRoundedBook.otf") format("opentype"), url("./fonts/GothamRoundedBook.ttf") format("truetype"); }
@@ -89,17 +90,19 @@ body #seccionDos .darker { font-family: "GothamRoundedMedium", sans-serif; }
 
 body #seccionDos .skyblue { padding: 2rem 0; }
 
-body #seccionDos .skyblue h3 { text-align: left; font-family: "GothamRoundedBold"; text-transform: uppercase; }
+body #seccionDos .skyblue .capaUno { font-size: 8rem; font-family: 'Ubuntu', sans-serif; color: #b0b0b0; position: absolute; z-index: -1; }
 
-body #seccionDos .skyblue ol { color: black; padding: 1rem 0; }
+body #seccionDos .skyblue .contPropuesta { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-left: 20%; padding-top: 20%; }
+
+body #seccionDos .skyblue .contPropuesta h4 { text-align: left; font-family: "GothamRoundedBold"; text-transform: uppercase; font-size: 2.5rem; }
+
+body #seccionDos .skyblue .contPropuesta ol { color: black; padding: 1rem 0; }
 
 body #seccionDos ul { font-size: 14px; list-style: none; padding: 0; }
 
 body #seccionDos ul li { margin-bottom: 10px; }
 
-body #seccionDos .img { border-radius: 8px; margin-top: 2%; }
-
-body #seccionDos .img .img-fluid { margin-bottom: 10%; }
+body #seccionDos .img { /*border-radius: 8px; margin-top: 2%; .img-fluid{ margin-bottom: 10%; }*/ }
 
 body #seccionDos .img .articuloOculto { display: none; }
 
