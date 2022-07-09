@@ -179,10 +179,10 @@ body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #
   body .seccion { margin-top: 20px; }
   body .titulo-seccion { margin-bottom: 0px; }
   body #seccionDos .principalAOcultar { display: none; }
-  body #seccionDos .columna-imagenes img { margin-bottom: 12px; width: 100%; }
   body #seccionDos .columna-imagenes .articuloOculto { display: block; text-align: center; }
-  body #seccionDos .columna-imagenes .articuloOculto h3 { text-align: center; font-family: "GothamRoundedBold"; }
-  body #seccionDos .columna-imagenes .articuloOculto ol { color: black; }
+  body #seccionDos .columna-imagenes .articuloOculto .capaUno { font-size: 7rem; font-family: 'Ubuntu', sans-serif; color: #b0b0b0; position: absolute; z-index: -1; }
+  body #seccionDos .columna-imagenes .articuloOculto .contPropuesta { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-left: 1.2rem; padding-top: 5.5rem; text-align: justify; }
+  body #seccionDos .columna-imagenes .articuloOculto .contPropuesta .tituloCapa { text-align: left; font-family: "GothamRoundedBold"; text-transform: uppercase; font-size: 2rem; }
   body #seccionTres .card { margin-bottom: 12px; }
   body #seccionTres .card.card-large { height: 400px; } }
 
