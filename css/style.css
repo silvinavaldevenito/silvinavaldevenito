@@ -181,11 +181,12 @@ body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #
   body #seccionDos .principalAOcultar { display: none; }
   body #seccionDos .columna-imagenes .articuloOculto { display: block; text-align: center; }
   body #seccionDos .columna-imagenes .articuloOculto .capaUno { font-size: 7rem; font-family: 'Ubuntu', sans-serif; color: #b0b0b0; position: absolute; z-index: -1; }
-  body #seccionDos .columna-imagenes .articuloOculto .contPropuesta { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-left: 1.2rem; padding-top: 5.5rem; text-align: justify; }
+  body #seccionDos .columna-imagenes .articuloOculto .contPropuesta { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; margin-left: 1.2rem; padding-top: 5.5rem; text-align: j; }
   body #seccionDos .columna-imagenes .articuloOculto .contPropuesta .tituloCapa { text-align: left; font-family: "GothamRoundedBold"; text-transform: uppercase; font-size: 2rem; }
   body #seccionTres .card { margin-bottom: 12px; }
   body #seccionTres .card.card-large { height: 400px; } }
 
-@media screen and (max-width: 446px) { body #seccionTres .card .card-body .card-title { font-size: 30px; }
+@media screen and (max-width: 446px) { body #seccionTres .card.card-large { height: 20rem; width: 22rem; }
+  body #seccionTres .card .card-body .card-title { font-size: 30px; }
   body #seccionTres .card .card-body .card-text { font-size: 20px; } }
 /*# sourceMappingURL=style.css.map */
