@@ -307,7 +307,7 @@ body {
                 background-image: url("../css/img/nov3.png");
             }
             &.card5 {
-                background-image: url("../css/img/nov4.jpg");
+                background-image: url("../css/img/nov5.JPG");
             }
 
             &:hover {
@@ -478,8 +478,9 @@ body {
     body{
         #seccionTres{
             .card {
+                height: 350px;
                 &.card-large{
-                    height: 20rem;
+                    height: 14rem;
                     width: 22rem;
                 }
                 .card-body{
