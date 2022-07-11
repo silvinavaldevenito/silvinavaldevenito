@@ -54,7 +54,7 @@ body .navbar .navbar-nav .nav-link:hover { color: #ec2088; }
 
 body .seccion { margin-top: 30px; padding-top: 30px; }
 
-body .imgHome { position: relative; background-size: cover; width: 100%; background-position: center right; height: 100vh; background-image: url("../css/img/silviportada.jpg"); background-repeat: no-repeat; background-attachment: fixed; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-flow: column-reverse; flex-flow: column-reverse; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+body .imgHome { position: relative; background-size: cover; width: 100%; background-position: center center; height: 100vh; background-image: url("../css/img/silviportada.jpg"); background-repeat: no-repeat; background-attachment: fixed; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-flow: column-reverse; flex-flow: column-reverse; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 
 body .imgHome .textoIndex { padding: 20px; color: #fff; margin-top: 20%; width: 70%; display: inline; }
 
