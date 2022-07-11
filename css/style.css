@@ -173,6 +173,10 @@ body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #
   body .imgHome .textoIndex { width: 100%; }
   body .imgHome .textoIndex h2 { font-size: 25px; } }
 
+@media screen and (max-width: 1024px) { body #seccionTres .card { height: 24rem; }
+  body #seccionTres .card.card1 { background-image: url("../css/img/nov6.png"); }
+  body #seccionTres .card.card-large { height: 24rem; } }
+
 @media screen and (max-width: 768px) { body .navbar img { width: 60%; margin: 0; }
   body .imgHome .textoIndex { width: 100%; }
   body .imgHome .textoIndex h2 { font-size: 25px; }

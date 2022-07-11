@@ -412,6 +412,22 @@ body {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    body {
+        #seccionTres {
+            .card {
+                height: 24rem;
+                &.card1 {
+                    background-image: url("../css/img/nov6.png");
+                }
+                &.card-large{
+                    height: 24rem;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 768px) {
     body {
         .navbar {
