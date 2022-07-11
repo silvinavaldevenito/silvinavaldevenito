@@ -132,7 +132,7 @@ body #seccionTres .card .card-body .btn a { -webkit-text-decoration-line: none; 
 
 body #seccionTres .card.card-large { height: 500px; }
 
-body #seccionTres .card.card1 { background-image: url("../css/img/nov6.png"); }
+body #seccionTres .card.card1 { background-image: url("../css/img/nov1.png"); }
 
 body #seccionTres .card.card2 { background-image: url("../css/img/nov2.jpg"); }
 
@@ -187,6 +187,7 @@ body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #
   body #seccionTres .card.card-large { height: 400px; } }
 
 @media screen and (max-width: 446px) { body #seccionTres .card { height: 14rem; }
+  body #seccionTres .card.card1 { background-image: url("../css/img/nov6.png"); }
   body #seccionTres .card.card-large { height: 14rem; width: 22rem; }
   body #seccionTres .card .card-body .card-title { font-size: 30px; }
   body #seccionTres .card .card-body .card-text { font-size: 20px; } }

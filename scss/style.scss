@@ -297,7 +297,7 @@ body {
                 height: 500px;
             }
             &.card1 {
-                background-image: url("../css/img/nov6.png");
+                background-image: url("../css/img/nov1.png");
             }
             &.card2 {
                 background-image: url("../css/img/nov2.jpg");
@@ -481,6 +481,9 @@ body {
         #seccionTres{
             .card {
                 height: 14rem;
+                &.card1 {
+                    background-image: url("../css/img/nov6.png");
+                }
                 &.card-large{
                     height: 14rem;
                     width: 22rem;
