@@ -84,7 +84,7 @@ body #seccionUno .textoUno .row { --bs-gutter-x: 0 rem; }
 
 body #seccionDos { scroll-margin-top: 4em; }
 
-body #seccionDos article { margin-bottom: 20px; font-size: 14px; }
+body #seccionDos article { margin-bottom: 20px; font-size: 16px; }
 
 body #seccionDos .darker { font-family: "GothamRoundedMedium", sans-serif; }
 
@@ -98,7 +98,7 @@ body #seccionDos .skyblue .contPropuesta .tituloCapa { text-align: left; font-fa
 
 body #seccionDos .skyblue .contPropuesta ol { color: black; padding: 2rem 0; }
 
-body #seccionDos ul { font-size: 14px; list-style: none; padding: 0; }
+body #seccionDos ul { font-size: 16px; list-style: none; padding: 0; }
 
 body #seccionDos ul li { margin-bottom: 10px; }
 
