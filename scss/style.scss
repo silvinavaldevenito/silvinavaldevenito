@@ -94,7 +94,8 @@ body {
         .textoIndex {
             padding:20px;
             color:#fff;
-            margin-top: 20%;
+            margin-top: -20%;
+            text-shadow: 1px 1px rgba(0,0,0,0.5);
             width: 70%;
             display: inline;
             h2{
@@ -135,10 +136,14 @@ body {
                 justify-content: center;
                 text-align: center;
                 .row {
-                    padding: 25px 0;
+                    padding: 0;
                     margin: 20px 1rem;
                     margin-bottom: 0;
-                    padding-bottom: 0;
+                }
+                div {
+                    > .row {
+                        margin-top: 0;
+                    }
                 }
             }
             .textoBiografiaDos {
@@ -493,7 +498,12 @@ body {
     }
 }
 @media screen and (max-width: 446px) {
-    body{
+    body {
+        .imgHome {
+            .textoIndex {
+                margin-top: -80%;
+            }
+        }
         #seccionTres{
             .card {
                 height: 14rem;
