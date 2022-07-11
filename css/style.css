@@ -196,7 +196,7 @@ body .final-seccion .yellow-dot { width: 20px; height: 20px; background-color: #
   body #seccionTres .card { height: 14rem; }
   body #seccionTres .card.card1 { background-image: url("../css/img/nov6.png"); }
   body #seccionTres .card.card4 { background-image: url("../css/img/nov7.png"); }
-  body #seccionTres .card.card-large { height: 14rem; width: 22rem; }
+  body #seccionTres .card.card-large { height: 14rem; }
   body #seccionTres .card .card-body .card-title { font-size: 30px; }
   body #seccionTres .card .card-body .card-text { font-size: 20px; } }
 /*# sourceMappingURL=style.css.map */
